@@ -6,7 +6,7 @@
 /*   By: anhigo-s <anhigo-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 22:27:22 by anhigo-s          #+#    #+#             */
-/*   Updated: 2022/01/10 22:37:21 by anhigo-s         ###   ########.fr       */
+/*   Updated: 2022/01/10 23:08:28 by anhigo-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,6 @@ void	exec_args_piped(char **parsed, char **parsedpipe, t_shell *shell)
 void	openhelp(void)
 {
 	puts("\n***WELCOME TO MY SHELL HELP***"
-		"\nCopyright @ Suprotik Dey"
 		"\n-Use the shell at your own risk..."
 		"\nList of Commands supported:"
 		"\n>cd"

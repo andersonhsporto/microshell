@@ -6,7 +6,7 @@
 /*   By: anhigo-s <anhigo-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 22:03:21 by anhigo-s          #+#    #+#             */
-/*   Updated: 2022/01/10 22:41:24 by anhigo-s         ###   ########.fr       */
+/*   Updated: 2022/01/10 23:08:38 by anhigo-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,3 @@ int parsePipe(char* str, char** strpiped)
         return 1;
     }
 }
-  

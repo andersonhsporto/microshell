@@ -5,7 +5,7 @@ INCLUDE =	-I ./includes
 
 S_FOLDER  = ./source/
 
-LIBFT =	-L ./libft -lft
+LIBFT =	-L ./libft -lft -lreadline
 
 SRC =		$(addprefix $(S_FOLDER), \
 		cmd.c exec.c init.c input.c main.c \
@@ -46,4 +46,4 @@ push:clean
 c:clean
 	rm -rf push_swap
 	$(CC) $(CFLAGS) -g $(INCLUDE) $(SRC) $(LIBFT) -o $(NAME)
-	./minishell
+	./microshell
