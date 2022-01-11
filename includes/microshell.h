@@ -6,7 +6,7 @@
 /*   By: anhigo-s <anhigo-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 21:40:13 by anhigo-s          #+#    #+#             */
-/*   Updated: 2022/01/10 23:02:56 by anhigo-s         ###   ########.fr       */
+/*   Updated: 2022/01/11 01:38:17 by anhigo-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,6 @@ int		processString(char *str, char **parsed, char **parsedpipe);
 
 void	execargs(char **parsed);
 
-int	takeinput(char *str);
+int		takeinput(char *str);
 
 #endif
