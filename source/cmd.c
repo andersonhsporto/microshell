@@ -60,8 +60,7 @@ void	exec_args_piped(char **parsed, char **parsedpipe, t_shell *shell)
 
 void	openhelp(void)
 {
-	puts("\n***WELCOME TO MY SHELL HELP***"
-		"\n-Use the shell at your own risk..."
+	puts("\n***WELCOME TO MICROSHELL"
 		"\nList of Commands supported:"
 		"\n>cd"
 		"\n>ls"
